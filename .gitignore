@@ -9,3 +9,4 @@ eve.json
 __pycache__/
 evidence/command-output.txt
 # Keep evidence instructions, but add actual screenshots intentionally after reviewing them.
+/suricata/rules/suricata.rules
