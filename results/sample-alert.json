@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-01-01T12:00:00.123456+0000",
+  "event_type": "alert",
+  "src_ip": "192.168.56.20",
+  "src_port": 51842,
+  "dest_ip": "192.168.56.10",
+  "dest_port": 8080,
+  "proto": "TCP",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "LAB TCP 8080 connection attempt",
+    "category": "(null)",
+    "severity": 3
+  }
+}

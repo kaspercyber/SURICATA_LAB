@@ -1,0 +1,12 @@
+name: Project sanity check
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check repository files and rule
+        run: bash tests/check_project.sh

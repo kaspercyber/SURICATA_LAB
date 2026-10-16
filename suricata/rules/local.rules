@@ -1,0 +1,1 @@
+alert tcp any any -> any 8080 (msg:"LAB TCP 8080 connection attempt"; flags:S; sid:1000001; rev:1;)

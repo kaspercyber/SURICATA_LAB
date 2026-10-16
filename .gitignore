@@ -1,0 +1,11 @@
+# Live traffic captures and logs may contain sensitive information
+*.pcap
+*.pcapng
+*.log
+fast.log
+eve.json
+.env
+.DS_Store
+__pycache__/
+evidence/command-output.txt
+# Keep evidence instructions, but add actual screenshots intentionally after reviewing them.

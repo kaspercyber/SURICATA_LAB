@@ -1,0 +1,14 @@
+# REFERENCE SNIPPET ONLY — merge into the existing suricata.yaml.
+# Do not replace the entire configuration file.
+default-rule-path: /etc/suricata/rules
+rule-files:
+  - suricata.rules
+  - local.rules
+
+# In the existing outputs -> eve-log section, ensure alerts are enabled.
+# Example only; preserve your installed version's structure:
+# - eve-log:
+#     enabled: yes
+#     filename: eve.json
+#     types:
+#       - alert
